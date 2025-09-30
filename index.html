@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Period Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Period Tracker</h1>
+            <p>Track your menstrual cycle and get predictions</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <h2>Add Period Start Date</h2>
+                <div class="input-group">
+                    <label for="period-date">Period Start Date:</label>
+                    <input type="date" id="period-date" required>
+                    <button id="add-period" type="button">Add Period</button>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <div class="info-card">
+                    <h3>Current Cycle Info</h3>
+                    <div id="cycle-info">
+                        <p id="current-day">Day of cycle: <span>-</span></p>
+                        <p id="cycle-length">Average cycle length: <span>-</span> days</p>
+                        <p id="next-period">Next period estimated: <span>-</span></p>
+                        <p id="days-until">Days until next period: <span>-</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="history-section">
+                <h3>Period History</h3>
+                <div id="period-history">
+                    <p class="no-data">No periods recorded yet. Add your first period date above!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
