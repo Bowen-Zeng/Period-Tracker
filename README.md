@@ -21,7 +21,7 @@ As the performative man I am, I made a simple, privacy-focused web application t
 
 ## Getting Started 😁
 
-Simply open `index.html` in any modern web browser. No installation or setup required! 
+Simply open `index.html` in any modern web browser. No installation or setup required! ✅
 
 ## Data Storage 👨🏻‍💻
 
