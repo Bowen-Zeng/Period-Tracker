@@ -26,7 +26,7 @@ Simply open `index.html` in any modern web browser. No installation or setup req
 ## Data Storage 👨🏻‍💻
 
 All your period data is stored locally in your browser using localStorage. This means:
-- Your data never leaves your device
+- Your data never leaves your drive
 - Data persists between browser sessions
 - Clearing browser data will remove your period history
 
